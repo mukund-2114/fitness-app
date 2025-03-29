@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Styles -->
+    <style name="Widget.FitTrack.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+    </style>
+
+    <style name="Widget.FitTrack.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.FitTrack.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="contentPadding">@dimen/card_content_padding</item>
+    </style>
+
+    <style name="Widget.FitTrack.Card.Outlined" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">?attr/colorOutline</item>
+    </style>
+
+    <!-- Text Input Styles -->
+    <style name="Widget.FitTrack.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medium</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_medium</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/input_field_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/input_field_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/input_field_corner_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/input_field_corner_radius</item>
+    </style>
+
+    <!-- Progress Indicator Styles -->
+    <style name="Widget.FitTrack.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="indicatorSize">@dimen/progress_bar_size</item>
+        <item name="trackThickness">@dimen/progress_bar_stroke_width</item>
+    </style>
+
+    <!-- Toolbar Styles -->
+    <style name="Widget.FitTrack.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+        <item name="titleMarginStart">@dimen/toolbar_title_margin</item>
+    </style>
+
+    <!-- Bottom Navigation Styles -->
+    <style name="Widget.FitTrack.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/bottom_nav_height</item>
+        <item name="itemIconSize">@dimen/bottom_nav_icon_size</item>
+    </style>
+
+    <!-- FAB Styles -->
+    <style name="Widget.FitTrack.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="elevation">@dimen/fab_elevation</item>
+    </style>
+
+    <!-- Timer Text Style -->
+    <style name="TextAppearance.FitTrack.Timer" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/timer_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Calories Text Style -->
+    <style name="TextAppearance.FitTrack.Calories" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/calories_text_size</item>
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <!-- Premium Feature Item Style -->
+    <style name="Widget.FitTrack.PremiumFeatureItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Chart Style -->
+    <style name="Widget.FitTrack.Chart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chart_height</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+    </style>
+</resources>

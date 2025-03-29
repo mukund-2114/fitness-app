@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_error">#CF6679</color>
+
+    <!-- Dark Theme Text Colors -->
+    <color name="dark_text_primary">#DEFFFFFF</color> <!-- 87% white -->
+    <color name="dark_text_secondary">#99FFFFFF</color> <!-- 60% white -->
+    <color name="dark_text_disabled">#61FFFFFF</color> <!-- 38% white -->
+
+    <!-- Dark Theme Status Colors -->
+    <color name="dark_success">#1DB954</color>
+    <color name="dark_warning">#FFB86C</color>
+    <color name="dark_info">#64B5F6</color>
+
+    <!-- Dark Theme Workout Intensity Colors -->
+    <color name="dark_intensity_low">#66BB6A</color>
+    <color name="dark_intensity_medium">#FFA726</color>
+    <color name="dark_intensity_high">#EF5350</color>
+
+    <!-- Dark Theme Premium Feature Colors -->
+    <color name="dark_premium_gold">#FFD700</color>
+    <color name="dark_premium_background">#000000</color>
+    <color name="dark_premium_text">#FFFFFF</color>
+
+    <!-- Dark Theme Chart Colors -->
+    <color name="dark_chart_line">#64B5F6</color>
+    <color name="dark_chart_grid">#424242</color>
+    <color name="dark_chart_label">#B0BEC5</color>
+
+    <!-- Dark Theme Gradient Colors -->
+    <color name="dark_gradient_start">#1565C0</color>
+    <color name="dark_gradient_center">#1976D2</color>
+    <color name="dark_gradient_end">#1E88E5</color>
+
+    <!-- Dark Theme Ripple Effect -->
+    <color name="dark_ripple">#33FFFFFF</color>
+
+    <!-- Dark Theme Divider -->
+    <color name="dark_divider">#1FFFFFFF</color> <!-- 12% white -->
+
+    <!-- Dark Theme Overlay -->
+    <color name="dark_overlay_light">#52FFFFFF</color> <!-- 32% white -->
+    <color name="dark_overlay_dark">#CCFFFFFF</color> <!-- 80% white -->
+
+    <!-- Dark Theme Card Colors -->
+    <color name="dark_card_background">#272727</color>
+    <color name="dark_card_stroke">#333333</color>
+
+    <!-- Dark Theme Button Colors -->
+    <color name="dark_button_disabled">#424242</color>
+    <color name="dark_button_disabled_text">#61FFFFFF</color> <!-- 38% white -->
+
+    <!-- Dark Theme Input Field Colors -->
+    <color name="dark_input_background">#333333</color>
+    <color name="dark_input_stroke">#424242</color>
+    <color name="dark_input_hint">#80FFFFFF</color> <!-- 50% white -->
+
+    <!-- Dark Theme Selection Colors -->
+    <color name="dark_selection_background">#3D5AFE</color>
+    <color name="dark_selection_handle">#64B5F6</color>
+
+    <!-- Dark Theme Switch Colors -->
+    <color name="dark_switch_track_on">#8181FF</color>
+    <color name="dark_switch_track_off">#737373</color>
+    <color name="dark_switch_thumb_on">#5C5CFF</color>
+    <color name="dark_switch_thumb_off">#BDBDBD</color>
+</resources>

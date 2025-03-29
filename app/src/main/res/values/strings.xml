@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">FitTrack</string>
+
+    <!-- Main Activity -->
+    <string name="today_workout">Today\'s Workout</string>
+    <string name="no_workout_started">No workout started yet</string>
+    <string name="workout_in_progress">Workout in progress</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="weekly_stats">Weekly Stats</string>
+    <string name="loading_stats">Loading stats…</string>
+    <string name="premium_features">Premium Features</string>
+    <string name="unlock_premium">Unlock Premium</string>
+    <string name="premium_description">Unlock advanced analytics, personalized workout plans, and more!</string>
+
+    <!-- Workout Log Activity -->
+    <string name="workout_session">Workout Session</string>
+    <string name="calories_format">%d calories</string>
+    <string name="workout_type">Workout Type</string>
+    <string name="intensity">Intensity</string>
+    <string name="intensity_low">Low</string>
+    <string name="intensity_medium">Medium</string>
+    <string name="intensity_high">High</string>
+    <string name="notes">Notes</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="finish">Finish</string>
+    <string name="finish_workout_title">Finish Workout</string>
+    <string name="finish_workout_message">Are you sure you want to finish this workout?</string>
+    <string name="exit_workout_title">Exit Workout</string>
+    <string name="exit_workout_message">Are you sure you want to exit? Your progress will be saved.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Premium Activity -->
+    <string name="premium_benefits">Premium Benefits</string>
+    <string name="advanced_analytics">Advanced Analytics</string>
+    <string name="personalized_plans">Personalized Workout Plans</string>
+    <string name="ad_free">Ad-Free Experience</string>
+    <string name="choose_plan">Choose Your Plan</string>
+    <string name="monthly_plan">Monthly Plan - $4.99/month</string>
+    <string name="yearly_plan">Yearly Plan - $49.99/year (Save 17%)</string>
+    <string name="subscribe_monthly">Subscribe Monthly - $4.99</string>
+    <string name="subscribe_yearly">Subscribe Yearly - $49.99</string>
+    <string name="subscribe_now">Subscribe Now</string>
+
+    <!-- Error Messages -->
+    <string name="error_billing_setup">Billing setup failed: %s</string>
+    <string name="error_billing_disconnected">Billing service disconnected</string>
+    <string name="error_purchase_failed">Purchase failed: %s</string>
+    <string name="error_network">Network error: %s</string>
+    <string name="error_workout_start">Failed to start workout: %s</string>
+    <string name="error_workout_update">Failed to update workout: %s</string>
+    <string name="error_workout_finish">Failed to finish workout: %s</string>
+
+    <!-- Success Messages -->
+    <string name="success_subscription">Successfully subscribed to premium!</string>
+    <string name="success_workout_saved">Workout saved successfully!</string>
+
+    <!-- Workout Types -->
+    <string-array name="workout_types">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Cycling</item>
+        <item>Swimming</item>
+        <item>Weight Training</item>
+        <item>Yoga</item>
+        <item>HIIT</item>
+        <item>Other</item>
+    </string-array>
+</resources>
